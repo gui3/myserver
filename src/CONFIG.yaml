@@ -1,0 +1,5 @@
+# the local config
+
+disabled: true  
+# false to disable the app
+# and allow testing local bot
