@@ -5,11 +5,7 @@ module.exports = client => {
   client._to._data.bot_guilds = []
   client.guilds.cache.each(guild => {
     console.log("Connected to guild : " + guild.name)
-    client._to._data.bot_guilds.push({
-      name: guild.name,
-      description: guild.description,
-      id: guild.id
-    })
+    client._to._data.bot_guilds.push(guild)
     // botReboot(guild)
   })
 
