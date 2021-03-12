@@ -1,5 +1,5 @@
 # the local config
 
-disabled: true  
-# false to disable the app
+disable_bot: true  
+# false to disable the discord bot
 # and allow testing local bot
