@@ -1,0 +1,20 @@
+{
+  "name": "myserver",
+  "version": "0.0.0",
+  "description": "my own little backend server",
+  "main": "./app/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "repository": "https://github.com/gui3/myserver",
+  "author": "gui3 <gui.silvent@gmail.com>",
+  "license": "Unlicense",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}

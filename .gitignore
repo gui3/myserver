@@ -1,0 +1,10 @@
+
+.env
+# discord-sandbot-key.json
+
+node_modules/*
+yarn.lock
+package-lock.json
+
+# events/*
+# ../commands/init.js
