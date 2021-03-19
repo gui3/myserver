@@ -45,7 +45,7 @@ app.use((err, req, res, next) => {
 // socket
 const socket = socketIo(httpServer, {
   cors: {
-    origin: "https://gui3.github.io/gui3/",
+    origin: "https://gui3.github.io",
     methods: ["GET", "POST"],
     allowedHeaders: ["my-custom-header"],
     credentials: true
