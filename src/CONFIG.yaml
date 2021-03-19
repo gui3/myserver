@@ -1,5 +1,9 @@
 # the local config
 
-disable_bot: true  
+disable_bot: false  
 # false to disable the discord bot
 # and allow testing local bot
+
+errors_discord: true
+errors_discord_stack: false
+# false to prevent bot to send errors to discord
